@@ -1,5 +1,5 @@
 import requests
-
+import csv
 class Bot:
     def __init__(self):
         pass
@@ -11,13 +11,22 @@ class Bot:
         data = response.json()
         for i in range(len(data)):
             p = {
-                "Name": data[i]["Name"],
-                "Price": data[i]["Price"]
+                "name": data[i]["Name"],
+                "price": data[i]["Price"]
             }
             product_list.append(p)
         return product_list
 
+    def write_to_file(self, products_list):
+        with open("products_salcobrand.csv", "w", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(["name", "price"])
+            for product in products_list:
+                writer.writerow([product["name"], product["price"]])
+
+
     
 if __name__ == "__main__":
     bot = Bot()
-    print(bot.find_generic_drug("ibuprofeno"))
+    product_list = bot.find_generic_drug("ibuprofeno")
+    bot.write_to_file(product_list)

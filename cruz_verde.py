@@ -1,36 +1,64 @@
-import json
-from seleniumwire import webdriver
+from selenium import webdriver
 from selenium.webdriver.common.by import By
-import gzip
+from selenium.webdriver.support.ui import WebDriverWait
+from webdriver_manager.chrome import ChromeDriverManager
+
+import csv
+import time
 
 class Bot:
     def __init__(self):
-        self.driver = webdriver.Chrome("chromedriver.exe")
+        self.driver = webdriver.Chrome(ChromeDriverManager().install())
 
     def find_generic_drug(self, drug_name):
         product_list = []
-        first_link = "https://www.cruzverde.cl/"
-        self.driver.get(first_link)
-        click = self.driver.find_element(By.XPATH, "//at-button/button[span=' Aceptar ']")
-        click.click()
-        self.driver.get(f"https://www.cruzverde.cl/search?query={drug_name}")
-        for request in self.driver.requests:
-            if request.response:
-                if "https://api.cruzverde.cl/product-service/products/product-summary" in request.url:
-                    response = request.response.body
-                    response = gzip.decompress(response).decode('utf-8')
-                    response = json.loads(response)
 
-                    print(response)
+        link = f"https://www.cruzverde.cl/search?query={drug_name}"
+        self.driver.get(link)
+        button_accept = WebDriverWait(self.driver, 10).until(
+            lambda x: x.find_element(By.XPATH, "//at-button/button[span=' Aceptar ']")
+        )
+        button_accept.click()
 
-                    for v in response.values():
-                        product = {
-                            "name": v["name"],
-                            "price": v["prices"]["price-list-cl"]
-                        }
-                        product_list.append(product)
+        page = 1
+
+        while True:
+            try:
+                time.sleep(5)
+                products = WebDriverWait(self.driver, 10).until(
+                    lambda x: x.find_elements(By.CSS_SELECTOR, "div ml-card-product")
+                )
+                
+                for product in products:
+                    p = {
+                        "name": WebDriverWait(product, 10).until(
+                            lambda x: x.find_element(By.XPATH, "div/div/div[2]/div[2]/at-link/a").text
+                        ),
+                        "price": WebDriverWait(product, 10).until(
+                            lambda x: x.find_element(By.XPATH, "div/div/div[3]/div/ml-price-tag/div[1]/div[1]").text
+                        )
+                    }
+                    product_list.append(p)
+                page += 1
+                click = WebDriverWait(self.driver, 10).until(
+                    lambda x: x.find_element(By.XPATH, f"//div[text()= {page} ]")
+                )
+                click.click()
+
+            except Exception as e:
+                print(e)
+                break
+
         return product_list
+    
+    def write_to_file(self, products_list):
+        with open("products_cruz_verde.csv", "w", newline="") as f:
+            writer = csv.writer(f)
+            writer.writerow(["name", "price"])
+            for product in products_list:
+                writer.writerow([product["name"], product["price"]])
 
 if __name__ == "__main__":
     bot = Bot()
-    print(bot.find_generic_drug("ibuprofeno"))
+    product_list = bot.find_generic_drug("ibuprofeno")
+    bot.write_to_file(product_list)
