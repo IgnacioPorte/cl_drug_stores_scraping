@@ -11,22 +11,29 @@ class Bot:
         data = response.json()
         for i in range(len(data)):
             p = {
-                "name": data[i]["Name"],
-                "price": data[i]["Price"]
+                "description": data[i]["Name"],
+                "price": data[i]["Price"],
+                "bioequivalent": drug_name,
+                "image_url": data[i]["PictureUrl"]
             }
             product_list.append(p)
         return product_list
 
     def write_to_file(self, products_list):
-        with open("products_salcobrand.csv", "w", newline="") as f:
+        with open("data/products_salcobrand.csv", "w", newline="") as f:
             writer = csv.writer(f)
-            writer.writerow(["name", "price"])
+            writer.writerow(["description", "price", "bioequivalent", "image_url"])
             for product in products_list:
-                writer.writerow([product["name"], product["price"]])
-
+                writer.writerow([product["description"], product["price"], product["bioequivalent"], product["image_url"]])
 
     
 if __name__ == "__main__":
     bot = Bot()
-    product_list = bot.find_generic_drug("ibuprofeno")
+    product_list = []
+    with open("druglist.txt", "r") as f:
+        drugs = f.readlines()
+        for drug in drugs:
+            product_list += bot.find_generic_drug(drug.strip())
+
+    product_list += bot.find_generic_drug("ibuprofeno")
     bot.write_to_file(product_list)
