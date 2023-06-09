@@ -5,6 +5,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 import csv
 class Bot:
     def __init__(self):
+        self.chain = "Farmacia Ahumada"
         self.driver = webdriver.Chrome(ChromeDriverManager().install())
 
     def find_generic_drug(self, drug_name):

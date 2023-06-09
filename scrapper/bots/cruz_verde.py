@@ -8,6 +8,7 @@ import time
 
 class Bot:
     def __init__(self):
+        self.chain = "Cruz Verde"
         self.driver = webdriver.Chrome(ChromeDriverManager().install())
 
     def find_generic_drug(self, drug_name):
@@ -21,8 +22,8 @@ class Bot:
             )
             button_accept.click()
         except:
+            # Si el navegador estaba abierto, el botón no aparece
             pass
-
         page = 1
 
         while True:
@@ -74,4 +75,3 @@ if __name__ == "__main__":
             product_list += bot.find_generic_drug(drug.strip())
 
     product_list += bot.find_generic_drug("ibuprofeno")
-    bot.write_to_file(product_list)
