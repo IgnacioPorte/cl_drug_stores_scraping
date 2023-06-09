@@ -1,0 +1,69 @@
+Error en ibuprofeno de Farmacia AhumadaMessage: no such element: Unable to locate element: {"method":"css selector","selector":".product-item-details"}
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+0   chromedriver                        0x00000001027af8ac chromedriver + 4257964
+1   chromedriver                        0x00000001027a7f40 chromedriver + 4226880
+2   chromedriver                        0x00000001023e49d4 chromedriver + 281044
+3   chromedriver                        0x000000010241fa34 chromedriver + 522804
+4   chromedriver                        0x00000001024151cc chromedriver + 479692
+5   chromedriver                        0x00000001024567e4 chromedriver + 747492
+6   chromedriver                        0x000000010241398c chromedriver + 473484
+7   chromedriver                        0x000000010241498c chromedriver + 477580
+8   chromedriver                        0x000000010276e900 chromedriver + 3991808
+9   chromedriver                        0x0000000102772354 chromedriver + 4006740
+10  chromedriver                        0x0000000102772940 chromedriver + 4008256
+11  chromedriver                        0x000000010277833c chromedriver + 4031292
+12  chromedriver                        0x0000000102772f34 chromedriver + 4009780
+13  chromedriver                        0x000000010274b490 chromedriver + 3847312
+14  chromedriver                        0x00000001027909f4 chromedriver + 4131316
+15  chromedriver                        0x0000000102790b4c chromedriver + 4131660
+16  chromedriver                        0x00000001027a1230 chromedriver + 4198960
+17  libsystem_pthread.dylib             0x000000018623906c _pthread_start + 148
+18  libsystem_pthread.dylib             0x0000000186233e2c thread_start + 8
+
+Error buscando paracetamol en Farmacia Ahumada: Message: no such element: Unable to locate element: {"method":"css selector","selector":".product-item-details"}
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+0   chromedriver                        0x000000010529b8ac chromedriver + 4257964
+1   chromedriver                        0x0000000105293f40 chromedriver + 4226880
+2   chromedriver                        0x0000000104ed09d4 chromedriver + 281044
+3   chromedriver                        0x0000000104f0ba34 chromedriver + 522804
+4   chromedriver                        0x0000000104f011cc chromedriver + 479692
+5   chromedriver                        0x0000000104f427e4 chromedriver + 747492
+6   chromedriver                        0x0000000104eff98c chromedriver + 473484
+7   chromedriver                        0x0000000104f0098c chromedriver + 477580
+8   chromedriver                        0x000000010525a900 chromedriver + 3991808
+9   chromedriver                        0x000000010525e354 chromedriver + 4006740
+10  chromedriver                        0x000000010525e940 chromedriver + 4008256
+11  chromedriver                        0x000000010526433c chromedriver + 4031292
+12  chromedriver                        0x000000010525ef34 chromedriver + 4009780
+13  chromedriver                        0x0000000105237490 chromedriver + 3847312
+14  chromedriver                        0x000000010527c9f4 chromedriver + 4131316
+15  chromedriver                        0x000000010527cb4c chromedriver + 4131660
+16  chromedriver                        0x000000010528d230 chromedriver + 4198960
+17  libsystem_pthread.dylib             0x000000018623906c _pthread_start + 148
+18  libsystem_pthread.dylib             0x0000000186233e2c thread_start + 8
+
+Error buscando ibuprofeno en Farmacia Ahumada: Message: no such element: Unable to locate element: {"method":"css selector","selector":".product-item-details"}
+  (Session info: chrome=114.0.5735.106)
+Stacktrace:
+0   chromedriver                        0x000000010529b8ac chromedriver + 4257964
+1   chromedriver                        0x0000000105293f40 chromedriver + 4226880
+2   chromedriver                        0x0000000104ed09d4 chromedriver + 281044
+3   chromedriver                        0x0000000104f0ba34 chromedriver + 522804
+4   chromedriver                        0x0000000104f011cc chromedriver + 479692
+5   chromedriver                        0x0000000104f427e4 chromedriver + 747492
+6   chromedriver                        0x0000000104eff98c chromedriver + 473484
+7   chromedriver                        0x0000000104f0098c chromedriver + 477580
+8   chromedriver                        0x000000010525a900 chromedriver + 3991808
+9   chromedriver                        0x000000010525e354 chromedriver + 4006740
+10  chromedriver                        0x000000010525e940 chromedriver + 4008256
+11  chromedriver                        0x000000010526433c chromedriver + 4031292
+12  chromedriver                        0x000000010525ef34 chromedriver + 4009780
+13  chromedriver                        0x0000000105237490 chromedriver + 3847312
+14  chromedriver                        0x000000010527c9f4 chromedriver + 4131316
+15  chromedriver                        0x000000010527cb4c chromedriver + 4131660
+16  chromedriver                        0x000000010528d230 chromedriver + 4198960
+17  libsystem_pthread.dylib             0x000000018623906c _pthread_start + 148
+18  libsystem_pthread.dylib             0x0000000186233e2c thread_start + 8
+

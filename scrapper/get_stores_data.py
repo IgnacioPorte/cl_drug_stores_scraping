@@ -2,6 +2,11 @@ import requests
 import json
 import pandas as pd
 
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+results_base_path = os.getenv('RESULTS_BASE_PATH') or '../data/'
 
 def get_info(store_name):
     # set up the request parameters
@@ -23,8 +28,9 @@ def get_info(store_name):
 
 drugstores = [
     'Cruz Verde',
-    # 'Farmacia Ahumada',
-    # 'Farmacia Botika',
+    'Farmacia Ahumada',
+    'Farmacia Botika',
+    'Salcobrand',
 ]
 
 df = pd.DataFrame(columns=['chain', 'title', 'latitude', 'longitude', 'address', 'phone'])
@@ -34,11 +40,11 @@ for drugstore in drugstores:
     for result in data['places_results']:
         df = df.append({
             'chain': drugstore,
-            'title': result['title'],
-            'latitude': result['gps_coordinates']['latitude'],
-            'longitude': result['gps_coordinates']['longitude'],
-            'address': result['address'],
-            'phone': result['phone'] if 'phone' in result else None,
+            'title': result['title'] if 'title' in result else None,
+            'latitude': result['gps_coordinates']['latitude'] if 'latitude' in result['gps_coordinates'] else None,
+            'longitude': result['gps_coordinates']['longitude'] if 'longitude' in result['gps_coordinates'] else None,
+            'address': result['address'] if 'address' in result else None,
+            'phone': str(int(result['phone'])) if 'phone' in result else None, # No testeado
         }, ignore_index=True)
 
-df.to_csv('../data/drugstores.csv', index=False)
+df.to_csv(f'{results_base_path}/drugstores.csv', index=False)

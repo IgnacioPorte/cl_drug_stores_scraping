@@ -4,9 +4,12 @@ from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 import csv
 class Bot:
-    def __init__(self):
+    def __init__(self, driver_path=None):
         self.chain = "Farmacia Ahumada"
-        self.driver = webdriver.Chrome(ChromeDriverManager().install())
+        if driver_path:
+            self.driver = webdriver.Chrome(executable_path=driver_path)
+        else:
+            self.driver = webdriver.Chrome(ChromeDriverManager().install())
 
     def find_generic_drug(self, drug_name):
         self.driver.get("https://www.farmaciasahumada.cl/")
@@ -42,12 +45,12 @@ class Bot:
                 writer.writerow([product["description"], product["price"], product["bioequivalent"], product["image_url"]])
 
 if __name__ == "__main__":
-    bot = Bot()
+    bot = Bot("/Users/ignaciourrutiagajardo/.wdm/drivers/chromedriver/mac_arm64/113.0.5672.63/chromedriver")
     product_list = []
-    with open("druglist.txt", "r") as f:
-        drugs = f.readlines()
-        for drug in drugs:
-            product_list += bot.find_generic_drug(drug.strip())
+    # with open("druglist.txt", "r") as f:
+    #     drugs = f.readlines()
+    #     for drug in drugs:
+    #         product_list += bot.find_generic_drug(drug.strip())
 
     product_list += bot.find_generic_drug("ibuprofeno")
     bot.write_to_file(product_list)
