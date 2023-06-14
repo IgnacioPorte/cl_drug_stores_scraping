@@ -1,8 +1,10 @@
 from flask import Flask, request, jsonify
 import pandas as pd
 from geopy.distance import geodesic
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/products', methods=['GET'])
 def search():
@@ -32,6 +34,8 @@ def search():
         df = df.sort_values(by=sort_by, ascending=ascending)
 
     # Convertimos el dataframe filtrado a un diccionario y lo retornamos como respuesta JSON
+    # if df.empty: return empty []
+    if df.empty: return jsonify([])
     return jsonify(df.to_dict(orient='records'))
 
 
