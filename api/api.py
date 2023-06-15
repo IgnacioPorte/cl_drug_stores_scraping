@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, make_response
 import pandas as pd
 from geopy.distance import geodesic
 from flask_cors import CORS
@@ -10,6 +10,9 @@ CORS(app)
 def search():
     product = request.args.get('product')
     chain = request.args.get('chain')
+    contact = request.args.get('contact')
+    latitude = request.args.get('latitude')
+    longitude = request.args.get('longitude')
     bioequivalent = request.args.get('bioequivalent')
     sort_by = request.args.get('sort_by')
     order = request.args.get('order')
@@ -28,15 +31,34 @@ def search():
         # Filtramos las filas donde la columna 'description' contiene el producto
         df = df[df['description'].str.contains(product, case=False, na=False)]
 
+
+    if contact:
+        drugstores = get_drugstores()
+        drugstores = pd.read_json(drugstores.data)
+        drugstores = drugstores[drugstores['phone'].str.contains(contact, case=False, na=False)]
+        chains = drugstores['chain'].unique()
+        df = df[df['chain'].isin(chains)]
+
+    if latitude and longitude:
+        drugstores = get_drugstores()
+        drugstores = pd.read_json(drugstores.data)
+        
+        drugstores['distance'] = drugstores.apply(lambda row: geodesic((latitude, longitude), (row['latitude'], row['longitude'])).km, axis=1)
+
+        drugstores = drugstores[drugstores['distance'] <= 20]
+        chains = drugstores['chain'].unique()
+        df = df[df['chain'].isin(chains)]
+
+
+
     if sort_by in ['price', 'chain', 'description', 'bioequivalent']:
         ascending = True if order == 'asc' else False
         # Ordenamos el DataFrame de acuerdo al parámetro 'sort_by'
         df = df.sort_values(by=sort_by, ascending=ascending)
 
     # Convertimos el dataframe filtrado a un diccionario y lo retornamos como respuesta JSON
-    # if df.empty: return empty []
     if df.empty: return jsonify([])
-    return jsonify(df.to_dict(orient='records'))
+    return make_response(jsonify(df.to_dict(orient='records')), 200)
 
 
 @app.route('/drugstores', methods=['GET'])
@@ -53,7 +75,7 @@ def get_drugstores():
         df = df.sort_values('distance')
     if phone:
         df = df[df['phone'].str.contains(phone, case=False, na=False)]
-    return jsonify(df.to_dict(orient='records'))
+    return make_response(jsonify(df.to_dict(orient='records')), 200)
 
 if __name__ == "__main__":
     # source venv/bin/activate 
