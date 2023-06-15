@@ -4,13 +4,14 @@ from geopy.distance import geodesic
 from flask_cors import CORS
 
 app = Flask(__name__)
+
 CORS(app)
 
 @app.route('/products', methods=['GET'])
 def search():
     product = request.args.get('product')
     chain = request.args.get('chain')
-    contact = request.args.get('contact')
+    phone = request.args.get('phone')
     latitude = request.args.get('latitude')
     longitude = request.args.get('longitude')
     bioequivalent = request.args.get('bioequivalent')
@@ -32,12 +33,13 @@ def search():
         df = df[df['description'].str.contains(product, case=False, na=False)]
 
 
-    if contact:
+    if phone:
         drugstores = get_drugstores()
         drugstores = pd.read_json(drugstores.data)
-        drugstores = drugstores[drugstores['phone'].str.contains(contact, case=False, na=False)]
+        drugstores = drugstores[drugstores['phone'].str.contains(phone, case=False, na=False)]
         chains = drugstores['chain'].unique()
         df = df[df['chain'].isin(chains)]
+        if df.empty: return jsonify([])
 
     if latitude and longitude:
         drugstores = get_drugstores()
@@ -58,7 +60,7 @@ def search():
 
     # Convertimos el dataframe filtrado a un diccionario y lo retornamos como respuesta JSON
     if df.empty: return jsonify([])
-    return make_response(jsonify(df.to_dict(orient='records')), 200)
+    return make_response(df.to_json(orient='records'), 200)
 
 
 @app.route('/drugstores', methods=['GET'])
@@ -67,7 +69,16 @@ def get_drugstores():
     lat = request.args.get('latitude')
     lon = request.args.get('longitude')
     phone = request.args.get('phone')
+    product = request.args.get('product')
+
     df = pd.read_csv('../data/drugstores.csv')
+
+    if product:
+        products = pd.read_csv('../data/products.csv')
+        products = products[products['description'].str.contains(product, case=False, na=False)]
+        chains = products['chain'].unique()
+        df = df[df['chain'].isin(chains)]
+
     if chain:
         df = df[df['chain'].str.contains(chain, case=False, na=False)]
     if lat and lon:
@@ -75,7 +86,10 @@ def get_drugstores():
         df = df.sort_values('distance')
     if phone:
         df = df[df['phone'].str.contains(phone, case=False, na=False)]
-    return make_response(jsonify(df.to_dict(orient='records')), 200)
+    
+    if df.empty: return jsonify([])
+    df = df[df['distance'] <= 5]
+    return make_response(df.to_json(orient='records'), 200)
 
 if __name__ == "__main__":
     # source venv/bin/activate 
