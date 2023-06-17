@@ -50,8 +50,7 @@ def search():
         drugstores = drugstores[drugstores['distance'] <= 20]
         chains = drugstores['chain'].unique()
         df = df[df['chain'].isin(chains)]
-
-
+        df['distance'] = df.apply(lambda row: drugstores[drugstores['chain'] == row['chain']]['distance'].min(), axis=1)
 
     if sort_by in ['price', 'chain', 'description', 'bioequivalent']:
         ascending = True if order == 'asc' else False
@@ -93,4 +92,4 @@ def get_drugstores():
 
 if __name__ == "__main__":
     # source venv/bin/activate 
-    app.run(debug=True, port=5001)
+    app.run(debug=True, port=5000)
