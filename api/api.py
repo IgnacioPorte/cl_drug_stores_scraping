@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify, make_response
 import pandas as pd
+import io
 from geopy.distance import geodesic
 from flask_cors import CORS
 
@@ -35,7 +36,8 @@ def search():
 
     if phone:
         drugstores = get_drugstores()
-        drugstores = pd.read_json(drugstores.data)
+        drugstores = pd.read_json(io.BytesIO(drugstores.data))
+        if drugstores.empty: return jsonify([])
         drugstores = drugstores[drugstores['phone'].str.contains(phone, case=False, na=False)]
         chains = drugstores['chain'].unique()
         df = df[df['chain'].isin(chains)]
@@ -43,8 +45,7 @@ def search():
 
     if latitude and longitude:
         drugstores = get_drugstores()
-        drugstores = pd.read_json(drugstores.data)
-        
+        drugstores = pd.read_json(io.BytesIO(drugstores.data))
         drugstores['distance'] = drugstores.apply(lambda row: geodesic((latitude, longitude), (row['latitude'], row['longitude'])).km, axis=1)
 
         drugstores = drugstores[drugstores['distance'] <= 20]
@@ -78,17 +79,24 @@ def get_drugstores():
         chains = products['chain'].unique()
         df = df[df['chain'].isin(chains)]
 
-    if chain:
+    if chain and chain != '':
         df = df[df['chain'].str.contains(chain, case=False, na=False)]
-    if lat and lon:
-        df['distance'] = df.apply(lambda row: geodesic((lat, lon), (row['latitude'], row['longitude'])).km, axis=1)
-        df = df.sort_values('distance')
-    if phone:
+    if not (lat and lon):
+        lat = -33.44204
+        lon = -70.60463
+        
+    df['distance'] = df.apply(lambda row: geodesic((lat, lon), (row['latitude'], row['longitude'])).km, axis=1)
+    df = df.sort_values('distance')
+    if phone and phone != '':
         df = df[df['phone'].str.contains(phone, case=False, na=False)]
     
     if df.empty: return jsonify([])
-    df = df[df['distance'] <= 5]
-    return make_response(df.to_json(orient='records'), 200)
+    # df_final = df.head(10)
+    df_final = df[df['distance'] <= 5]
+    if df_final.shape[0] < 5:
+        df_final = df.head(10)
+
+    return make_response(df_final.to_json(orient='records'), 200)
 
 if __name__ == "__main__":
     # source venv/bin/activate 
