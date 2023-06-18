@@ -32,7 +32,9 @@ class Bot:
                         "description": description,
                         "price": price,
                         "bioequivalent": drug_name,
-                        "image_url": image_url
+                        "image_url": image_url,
+                        "chain": "Farmacia Botika",
+                        "searched_drug": drug_name
                     })
 
 
@@ -44,9 +46,9 @@ class Bot:
     def write_to_file(self, products_list):
         with open("data/products_botika.csv", "w", newline="") as f:
             writer = csv.writer(f)
-            writer.writerow(["description", "price", "bioequivalent", "image_url"])
+            writer.writerow(["description", "price", "bioequivalent", "image_url", "chain", "searched_drug"])
             for product in products_list:
-                writer.writerow([product["description"], product["price"], product["bioequivalent"], product["image_url"]])
+                writer.writerow([product["description"], product["price"], product["bioequivalent"], product["image_url"], product["chain"], product['searched_drug']])
 
 
 if __name__ == "__main__":
@@ -57,5 +59,4 @@ if __name__ == "__main__":
         for drug in drugs:
             product_list += bot.find_generic_drug(drug.strip())
 
-    product_list += bot.find_generic_drug("ibuprofeno")
     bot.write_to_file(product_list)

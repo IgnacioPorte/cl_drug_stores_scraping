@@ -8,9 +8,7 @@ class Bot:
         self.driver = webdriver.Chrome(ChromeDriverManager().install())
 
     def find_generic_drug(self, drug_name):
-        self.driver.get("https://www.farmaciasahumada.cl/")
-        self.driver.find_element_by_id("search").send_keys(drug_name)
-        self.driver.find_element_by_id("search").submit()
+        self.driver.get(f"https://www.farmaciasahumada.cl/catalogsearch/result/?q={drug_name}")
         WebDriverWait(self.driver, 10).until(
             lambda x: x.find_element(By.CSS_SELECTOR, "li.product-item")
         )
@@ -28,7 +26,9 @@ class Bot:
                 "description": description,
                 "price": price,
                 "bioequivalent": drug_name,
-                "image_url": image_url
+                "image_url": image_url,
+                "chain": "Farmacia Ahumada",
+                "searched_drug": drug_name
             }
             products_list.append(p)
         return products_list
@@ -36,9 +36,9 @@ class Bot:
     def write_to_file(self, products_list):
         with open("data/products_ahumada.csv", "w", newline="") as f:
             writer = csv.writer(f)
-            writer.writerow(["description", "price", "bioequivalent", "image_url"])
+            writer.writerow(["description", "price", "bioequivalent", "image_url", "chain", "searched_drug"])
             for product in products_list:
-                writer.writerow([product["description"], product["price"], product["bioequivalent"], product["image_url"]])
+                writer.writerow([product["description"], product["price"], product["bioequivalent"], product["image_url"], product["chain"], product['searched_drug']])
 
 if __name__ == "__main__":
     bot = Bot()
@@ -48,5 +48,4 @@ if __name__ == "__main__":
         for drug in drugs:
             product_list += bot.find_generic_drug(drug.strip())
 
-    product_list += bot.find_generic_drug("ibuprofeno")
     bot.write_to_file(product_list)
