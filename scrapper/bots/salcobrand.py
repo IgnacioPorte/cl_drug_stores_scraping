@@ -1,8 +1,8 @@
 import requests
 import csv
 class Bot:
-    def __init__(self):
-        pass
+    def __init__(self, driver_path=None):
+        self.chain = "Salcobrand"
 
     def find_generic_drug(self, drug_name):
         product_list = []

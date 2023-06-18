@@ -6,8 +6,12 @@ import time
 import csv
 
 class Bot:
-    def __init__(self):
-        self.driver = webdriver.Chrome(ChromeDriverManager().install())
+    def __init__(self, driver_path=None):
+        self.chain = "Farmacia Botika"
+        if driver_path:
+            self.driver = webdriver.Chrome(executable_path=driver_path)
+        else:
+            self.driver = webdriver.Chrome(ChromeDriverManager().install())
 
     def find_generic_drug(self, drug_name):
         product_list = []
