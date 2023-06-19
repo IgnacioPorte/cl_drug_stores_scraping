@@ -67,3 +67,11 @@ Stacktrace:
 17  libsystem_pthread.dylib             0x000000018623906c _pthread_start + 148
 18  libsystem_pthread.dylib             0x0000000186233e2c thread_start + 8
 
+Error buscando Farmacia Ahumada: 'DataFrame' object has no attribute 'append'
+Error buscando Farmacia Botika: 'DataFrame' object has no attribute 'append'
+Error buscando Salcobrand: 'DataFrame' object has no attribute 'append'
+Error buscando Cruz Verde: 'DataFrame' object has no attribute 'append'
+Error buscando Farmacia Ahumada: invalid literal for int() with base 10: '(2) 3274 0392'
+Error buscando Farmacia Botika: invalid literal for int() with base 10: '44 246 9801'
+Error buscando Salcobrand: invalid literal for int() with base 10: '600 360 6000'
+Error buscando Cruz Verde: invalid literal for int() with base 10: '600 360 6000'
