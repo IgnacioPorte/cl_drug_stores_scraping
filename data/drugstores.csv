@@ -1,24 +1,4 @@
 chain,title,latitude,longitude,address,phone
-Cruz Verde,Farmacias Cruz Verde,-33.447367299999996,-70.6673776,"- Av. Libertador Bernardo O'Higgins 2295, Santiago, Región Metropolitana",800 802 800
-Cruz Verde,Farmacias Cruz Verde,-33.440412699999996,-70.6686388,"- Compañía de Jesús 2304, Santiago, Región Metropolitana",800 802 800
-Cruz Verde,Farmacias Cruz Verde,-33.450821999999995,-70.677528,"- Av. Libertador Bernardo O'Higgins 3002, Santiago, Región Metropolitana",800 802 800
-Cruz Verde,Farmacias Cruz Verde,-33.4397641,-70.6503422,"- Huerfanos 956, 8320205 Santiago, Región Metropolitana",800 802 800
-Cruz Verde,Farmacia Cruz Verde,-33.4442039,-70.6544341,"- Teatinos 6, 8320000 Santiago, Región Metropolitana",800 802 800
-Cruz Verde,Farmacias Cruz Verde,-33.4361885,-70.6801072,"- Matucana 775, Santiago, Región Metropolitana",800 802 800
-Cruz Verde,Farmacias Cruz Verde,-33.4447204,-70.6567712,"- Av. Libertador Bernardo O'Higgins 1461, Santiago, Región Metropolitana",800 802 800
-Cruz Verde,Farmacias Cruz Verde,-33.4428804,-70.6453701,"- Av. Libertador Bernardo O'Higgins 658, Santiago, Región Metropolitana",800 802 800
-Cruz Verde,Farmacia Cruz Verde,-33.454211,-70.657324,"Santiago, Región Metropolitana",800 802 800
-Cruz Verde,Cruz Verde,-33.4433799,-70.6492161,"- Avda Liber Bernardo O`Higgins 925 Loc 1 C, Región Metropolitana",
-Cruz Verde,Farmacias Cruz Verde,-33.4518218,-70.67754219999999,"- Campbell 3090, Santiago, Estación Central, Región Metropolitana",800 802 800
-Cruz Verde,Farmacias Cruz Verde,-33.4407946,-70.6527809,"- Agustinas 1139, Santiago, Región Metropolitana",800 802 800
-Cruz Verde,Farmacias Cruz Verde,-33.4434568,-70.6505567,"- Paseo Ahumada 2, Santiago, Región Metropolitana",800 802 800
-Cruz Verde,Farmacia Cruz Verde,-33.452216,-70.682615,"- Av. Libertador Bernardo O'Higgins 3470, Santiago, Estación Central, Región Metropolitana",800 802 800
-Cruz Verde,Farmacias Cruz Verde,-33.4514159,-70.6796777,"- Av. Libertador Bernardo O'Higgins 3250, 9160004 Estación Central, Región Metropolitana",800 802 800
-Cruz Verde,Farmacias Cruz Verde,-33.439803999999995,-70.65108599999999,"- Paseo Ahumada 298, Santiago, Región Metropolitana",800 802 800
-Cruz Verde,Farmacia Cruz Verde,-33.4362941,-70.6515758,"- P.º Puente 598, 8320095 Santiago, Región Metropolitana",800 802 800
-Cruz Verde,Farmacia Cruz Verde,-33.4597736,-70.6490396,"- San Diego 1102, Santiago, Región Metropolitana",800 802 800
-Cruz Verde,Farmacias Cruz Verde,-33.4406424,-70.7016451,"- Av. San Pablo 4898, Santiago, Quinta Normal, Región Metropolitana",800 802 800
-Cruz Verde,Farmacias Cruz Verde,-33.44269,-70.6414175,"- Lira 49, Santiago, Región Metropolitana",800 802 800
 Farmacia Ahumada,Farmacias Ahumada,-33.4442714,-70.65441059999999,"- Teatinos 4, Santiago, Región Metropolitana",(2) 3274 0392
 Farmacia Ahumada,Farmacias Ahumada,-33.4350429,-70.6691341,"- Av. San Pablo 2302, Santiago, Región Metropolitana",(2) 3274 0504
 Farmacia Ahumada,Farmacias Ahumada,-33.4405865,-70.6510138,"- Paseo Ahumada 226, Santiago, Región Metropolitana",(2) 3274 0494
@@ -26,8 +6,8 @@ Farmacia Ahumada,Farmacias Ahumada,-33.4537171,-70.69172379999999,"- Autopista G
 Farmacia Ahumada,Farmacias Ahumada,-33.4542711,-70.65236399999999,"- Nataniel Cox 620, Santiago, Región Metropolitana",(2) 3274 0568
 Farmacia Ahumada,Farmacias Ahumada,-33.418977999999996,-70.6646722,"- Av. Fermín Vivaceta 1018, Independencia, Región Metropolitana",(2) 3274 0735
 Farmacia Ahumada,Farmacias Ahumada,-33.4423111,-70.6394862,"- Marcoleta 328, 8320165 Santiago, Región Metropolitana",(2) 3274 0693
-Farmacia Ahumada,Farmacias Ahumada,-33.425491099999995,-70.6707962,"- Av. Pdte. Eduardo Frei Montalva N° 190, Rancagua, O'Higgins",(2) 3274 0330
 Farmacia Ahumada,Farmacias Ahumada - SAFE,-33.4478532,-70.6345809,"- Av. Portugal 480, Santiago, Región Metropolitana",(2) 3274 0602
+Farmacia Ahumada,Farmacias Ahumada,-33.425491099999995,-70.6707962,"- Av. Pdte. Eduardo Frei Montalva N° 190, Rancagua, O'Higgins",(2) 3274 0330
 Farmacia Ahumada,Farmacias Ahumada,-33.4556207,-70.62652940000001,"- Av. Grecia 249, Santiago, Ñuñoa, Región Metropolitana",(2) 3274 0336
 Farmacia Ahumada,Farmacias Ahumada,-33.4570389,-70.7059673,"- Av. Libertador Bernardo O'Higgins N° 5199, local 2, Santiago, Estación Central, Región Metropolitana",(2) 3274 0377
 Farmacia Ahumada,Farmacias Ahumada,-33.4347454,-70.62631,"- Av. Salvador 89, Santiago, Providencia, Región Metropolitana",(2) 3274 0480
@@ -35,11 +15,71 @@ Farmacia Ahumada,Farmacias Ahumada,-33.439153999999995,-70.6484491,"- Huerfanos 
 Farmacia Ahumada,Farmacias Ahumada,-33.4499631,-70.6215533,"- Av. Salvador 1848, Ñuñoa, Región Metropolitana",(2) 3274 0670
 Farmacia Ahumada,Farmacias Ahumada,-33.4408905,-70.6305055,"- Rancagua 0180, Santiago, Providencia, Región Metropolitana",(2) 3274 0361
 Farmacia Ahumada,Farmacia Ahumada,-33.4428595,-70.6493854,"- Av. Libertador Bernardo O'Higgins 915, Santiago, Región Metropolitana",(2) 3274 0758
-Farmacia Ahumada,Farmacias Ahumada,-33.429701900000005,-70.6196147,"- Av. Nueva Providencia 1313, Santiago, Providencia, Región Metropolitana",(2) 3274 0492
 Farmacia Ahumada,Farmacias Ahumada,-33.4452382,-70.7240023,"- Neptuno 720, Lo Prado, Región Metropolitana",(2) 3274 0607
-Farmacia Ahumada,Farmacias Ahumada,-33.4243647,-70.6157401,"- La Concepción N°135, Local 1, Providencia, Región Metropolitana",(2) 3274 0629
+Farmacia Ahumada,Farmacias Ahumada,-33.429701900000005,-70.6196147,"- Av. Nueva Providencia 1313, Santiago, Providencia, Región Metropolitana",(2) 3274 0492
 Farmacia Ahumada,Farmacias Ahumada,-33.4458485,-70.60634069999999,"- Av. Pedro de Valdivia 2523, Santiago, Ñuñoa, Región Metropolitana",(2) 3274 0512
-Farmacia Botika,Farmacias La Botika,-33.5821379,-70.60146019999999,"- Av. Gabriela Pte. 1700, 8150498 Puente Alto, Región Metropolitana",44 246 9801
+Farmacia Ahumada,Farmacias Ahumada,-33.4243647,-70.6157401,"- La Concepción N°135, Local 1, Providencia, Región Metropolitana",(2) 3274 0629
+Farmacia Ahumada,Farmacias Ahumada,-33.4570389,-70.7059673,"- Av. Libertador Bernardo O'Higgins N° 5199, local 2, Santiago, Estación Central, Región Metropolitana",(2) 3274 0377
+Farmacia Ahumada,Farmacias Ahumada,-33.4347454,-70.62631,"- Av. Salvador 89, Santiago, Providencia, Región Metropolitana",(2) 3274 0480
+Farmacia Ahumada,Farmacias Ahumada,-33.439153999999995,-70.6484491,"- Huerfanos 811, Santiago, Región Metropolitana",(2) 3274 0741
+Farmacia Ahumada,Farmacias Ahumada,-33.4499631,-70.6215533,"- Av. Salvador 1848, Ñuñoa, Región Metropolitana",(2) 3274 0670
+Farmacia Ahumada,Farmacias Ahumada,-33.4408905,-70.6305055,"- Rancagua 0180, Santiago, Providencia, Región Metropolitana",(2) 3274 0361
+Farmacia Ahumada,Farmacia Ahumada,-33.4428595,-70.6493854,"- Av. Libertador Bernardo O'Higgins 915, Santiago, Región Metropolitana",(2) 3274 0758
+Farmacia Ahumada,Farmacias Ahumada,-33.4452382,-70.7240023,"- Neptuno 720, Lo Prado, Región Metropolitana",(2) 3274 0607
+Farmacia Ahumada,Farmacias Ahumada,-33.429701900000005,-70.6196147,"- Av. Nueva Providencia 1313, Santiago, Providencia, Región Metropolitana",(2) 3274 0492
+Farmacia Ahumada,Farmacias Ahumada,-33.4458485,-70.60634069999999,"- Av. Pedro de Valdivia 2523, Santiago, Ñuñoa, Región Metropolitana",(2) 3274 0512
+Farmacia Ahumada,Farmacias Ahumada,-33.4243647,-70.6157401,"- La Concepción N°135, Local 1, Providencia, Región Metropolitana",(2) 3274 0629
+Farmacia Ahumada,Farmacias Ahumada,-33.493282,-70.65265269999999,"- Gran Av. José Miguel Carrera N° 4293, San Miguel, Región Metropolitana",(2) 3274 0621
+Farmacia Ahumada,Farmacias Ahumada,-33.4236358,-70.6120707,"- Av. Providencia 2001, Providencia, Región Metropolitana",(2) 3274 0525
+Farmacia Ahumada,Farmacias Ahumada - SAFE,-33.4549745,-70.6088312,"- Campo de Deportes 156, Ñuñoa, Región Metropolitana",(2) 3274 0544
+Farmacia Ahumada,Farmacias Ahumada,-33.499665,-70.6540168,"- Gran Av. José Miguel Carrera 5001, 8920100 San Miguel, Región Metropolitana",(2) 3274 0556
+Farmacia Ahumada,Farmacias Ahumada,-33.4576158,-70.6051811,"- Av. Pedro de Valdivia N° 3774, Ñuñoa, Región Metropolitana",(2) 3274 0600
+Farmacia Ahumada,Farmacias Ahumada,-33.4842572,-70.62223709999999,"- Av. Vicuña Mackenna N° 3361, local 2, 8940833 San Joaquín, Región Metropolitana",(2) 3274 0682
+Farmacia Ahumada,Farmacias Ahumada,-33.4536853,-70.60106809999999,"- Av. Irarrázaval N° 2928, Ñuñoa, Región Metropolitana",(2) 3274 0366
+Farmacia Ahumada,Farmacias Ahumada,-33.3911131,-70.6757769,"- Av. Independencia 4142, Conchalí, Independencia, Región Metropolitana",(2) 3274 0335
+Farmacia Ahumada,Farmacias Ahumada - SAFE,-33.4918894,-70.6169635,"- Vicuña Mackenna N° 4102, Macul, Región Metropolitana",(2) 3274 0586
+Farmacia Ahumada,Farmacias Ahumada,-33.4178145,-70.6077984,"- Av. Andrés Bello 2447, Local 192, Santiago, Providencia, Región Metropolitana",(2) 3274 0664
+Farmacia Ahumada,Farmacias Ahumada,-33.493282,-70.65265269999999,"- Gran Av. José Miguel Carrera N° 4293, San Miguel, Región Metropolitana",(2) 3274 0621
+Farmacia Ahumada,Farmacias Ahumada,-33.4236358,-70.6120707,"- Av. Providencia 2001, Providencia, Región Metropolitana",(2) 3274 0525
+Farmacia Ahumada,Farmacias Ahumada - SAFE,-33.4549745,-70.6088312,"- Campo de Deportes 156, Ñuñoa, Región Metropolitana",(2) 3274 0544
+Farmacia Ahumada,Farmacias Ahumada,-33.499665,-70.6540168,"- Gran Av. José Miguel Carrera 5001, 8920100 San Miguel, Región Metropolitana",(2) 3274 0556
+Farmacia Ahumada,Farmacias Ahumada,-33.4576158,-70.6051811,"- Av. Pedro de Valdivia N° 3774, Ñuñoa, Región Metropolitana",(2) 3274 0600
+Farmacia Ahumada,Farmacias Ahumada,-33.4842572,-70.62223709999999,"- Av. Vicuña Mackenna N° 3361, local 2, 8940833 San Joaquín, Región Metropolitana",(2) 3274 0682
+Farmacia Ahumada,Farmacias Ahumada,-33.4536853,-70.60106809999999,"- Av. Irarrázaval N° 2928, Ñuñoa, Región Metropolitana",(2) 3274 0366
+Farmacia Ahumada,Farmacias Ahumada,-33.3911131,-70.6757769,"- Av. Independencia 4142, Conchalí, Independencia, Región Metropolitana",(2) 3274 0335
+Farmacia Ahumada,Farmacias Ahumada - SAFE,-33.4918894,-70.6169635,"- Vicuña Mackenna N° 4102, Macul, Región Metropolitana",(2) 3274 0586
+Farmacia Ahumada,Farmacias Ahumada,-33.4178145,-70.6077984,"- Av. Andrés Bello 2447, Local 192, Santiago, Providencia, Región Metropolitana",(2) 3274 0664
+Farmacia Ahumada,Farmacias Ahumada,-33.43682,-70.5989575,"- Av. Francisco Bilbao 2489, Santiago, Región Metropolitana",(2) 3274 0435
+Farmacia Ahumada,Farmacias Ahumada,-33.4779862,-70.5992622,"- Av. Macul N° 2555, Macul, Región Metropolitana",(2) 3274 0354
+Farmacia Ahumada,Farmacias Ahumada,-33.4745205,-70.59955769999999,"- Av. José Pedro Alessandri N° 2127, Macul, Región Metropolitana",(2) 3274 0354
+Farmacia Ahumada,Farmacias Ahumada,-33.4679506,-70.7319706,"- Av. Ramón Freire 7001, Pudahuel, Región Metropolitana",(2) 3274 0575
+Farmacia Ahumada,Farmacias Ahumada,-33.4648052,-70.5998795,"- Av. Grecia N° 3031, Ñuñoa, Región Metropolitana",(2) 3274 0579
+Farmacia Ahumada,Farmacias Ahumada,-33.4265696,-70.60191619999999,"- Carlos Antunez 2490, Santiago, Providencia, Región Metropolitana",(2) 3274 0479
+Farmacia Ahumada,Farmacias Ahumada,-33.421679499999996,-70.5983388,"- Av. El Bosque, Lota N° 164, Santiago, Providencia, Región Metropolitana",(2) 3274 0472
+Farmacia Ahumada,Farmacias Ahumada,-33.5118572,-70.65679229999999,"- Gran Av. José Miguel Carrera 6150, San Miguel, Región Metropolitana",(2) 3274 0595
+Farmacia Ahumada,Farmacias Ahumada,-33.4399307,-70.60806029999999,"- Av. Pedro de Valdivia N° 1865, Providencia, Región Metropolitana",(2) 3274 0350
+Farmacia Ahumada,Farmacias Ahumada,-33.3932591,-70.6415792,"- Av. Recoleta 3501, Recoleta, Región Metropolitana",(2) 3274 0339
+Farmacia Ahumada,Farmacias Ahumada,-33.43682,-70.5989575,"- Av. Francisco Bilbao 2489, Santiago, Región Metropolitana",(2) 3274 0435
+Farmacia Ahumada,Farmacias Ahumada,-33.4779862,-70.5992622,"- Av. Macul N° 2555, Macul, Región Metropolitana",(2) 3274 0354
+Farmacia Ahumada,Farmacias Ahumada,-33.4745205,-70.59955769999999,"- Av. José Pedro Alessandri N° 2127, Macul, Región Metropolitana",(2) 3274 0354
+Farmacia Ahumada,Farmacias Ahumada,-33.4679506,-70.7319706,"- Av. Ramón Freire 7001, Pudahuel, Región Metropolitana",(2) 3274 0575
+Farmacia Ahumada,Farmacias Ahumada,-33.4648052,-70.5998795,"- Av. Grecia N° 3031, Ñuñoa, Región Metropolitana",(2) 3274 0579
+Farmacia Ahumada,Farmacias Ahumada,-33.4265696,-70.60191619999999,"- Carlos Antunez 2490, Santiago, Providencia, Región Metropolitana",(2) 3274 0479
+Farmacia Ahumada,Farmacias Ahumada,-33.421679499999996,-70.5983388,"- Av. El Bosque, Lota N° 164, Santiago, Providencia, Región Metropolitana",(2) 3274 0472
+Farmacia Ahumada,Farmacias Ahumada,-33.5118572,-70.65679229999999,"- Gran Av. José Miguel Carrera 6150, San Miguel, Región Metropolitana",(2) 3274 0595
+Farmacia Ahumada,Farmacias Ahumada,-33.4399307,-70.60806029999999,"- Av. Pedro de Valdivia N° 1865, Providencia, Región Metropolitana",(2) 3274 0350
+Farmacia Ahumada,Farmacias Ahumada,-33.3932591,-70.6415792,"- Av. Recoleta 3501, Recoleta, Región Metropolitana",(2) 3274 0339
+Farmacia Ahumada,Farmacias Ahumada,-33.458388,-70.7120525,"- Av. Libertador Bernardo O'Higgins 555, Local 1, Maipú, Lo Prado, Región Metropolitana",(2) 3274 0782
+Farmacia Ahumada,Farmacias Ahumada,-33.515994299999996,-70.7190878,"- Av. Américo Vespucio 1501, Cerrillos, Región Metropolitana",(2) 3274 0668
+Farmacia Ahumada,Farmacias Ahumada,-33.4052784,-70.7047929,"- Av. Domingo Sta. María 4120, Renca, Región Metropolitana",(2) 3274 0589
+Farmacia Ahumada,Farmacias Ahumada - SAFE,-33.430144,-70.602279,"- Av. Los Leones 1160, Santiago, Región Metropolitana",(2) 3274 0519
+Farmacia Ahumada,Farmacias Ahumada - SAFE,-33.5088696,-70.6569433,"- Gran Av. José Miguel Carrera 5919, San Miguel, Región Metropolitana",(2) 3274 0529
+Farmacia Ahumada,Farmacias Ahumada,-33.4806767,-70.7469193,"- Av. Los Pajaritos N° 4500, Maipú, Región Metropolitana",(2) 3274 0347
+Farmacia Ahumada,Farmacias Ahumada,-33.456110699999996,-70.5858087,"- Juan Moya Morales 56, Santiago, Región Metropolitana",(2) 3274 0407
+Farmacia Ahumada,Farmacias Ahumada,-33.466050700000004,-70.5881096,"- Juan Moya Morales 1310, Ñuñoa, Región Metropolitana",(2) 2631 3009
+Farmacia Ahumada,Farmacias Ahumada - SAFE,-33.4166956,-70.594213,"- Av. Apoquindo 3449, Las Condes, Región Metropolitana",(2) 3274 0526
+Farmacia Ahumada,Farmacias Ahumada,-33.4194849,-70.6043521,"- Av. Providencia 2499, Santiago, Providencia, Región Metropolitana",(2) 3274 0477
+Farmacia Botika,Farmacias La Botika,-33.5821428,-70.6014508,"- Av. Gabriela Pte. 1700, 8150498 Puente Alto, Región Metropolitana",44 246 9801
 Farmacia Botika,Farmacias La Botika,-33.428297199999996,-70.7042076,"- Av. Mapocho 5041, 8510561 Quinta Normal, Región Metropolitana",44 246 9810
 Farmacia Botika,Farmacias La Botika,-33.4318169,-70.6911478,"- Av. Mapocho 4131, 8530146 Quinta Normal, Región Metropolitana",44 246 9811
 Farmacia Botika,Farmacias La Botika,-33.507428,-70.568486,"- San Luis de Macúl 6248, 7930986 Penalolen, Peñalolén, Región Metropolitana",44 246 9802
@@ -47,8 +87,8 @@ Farmacia Botika,Farmacias La Botika,-33.5177452,-70.6290489,"- Av. Lo Ovalle 347
 Farmacia Botika,Farmacias La Botika,-33.5801465,-70.5640615,"- Av, El Peñón #1467, 8205538 Puente Alto, Región Metropolitana",44 246 9815
 Farmacia Botika,Farmacia La Botika,-33.433180799999995,-70.6592984,"- Gral. Mackenna 1523, Santiago, Región Metropolitana",9 8900 9775
 Farmacia Botika,Farmacias La Botika,-33.5043308,-70.7802142,"- Av. 3 Pte. 2600, 9275900 Maipú, Región Metropolitana",44 246 9809
-Farmacia Botika,Botika Habanera,-33.4379851,-70.6489582,"- Merced 839, Santiago, Región Metropolitana",(2) 2784 2800
 Farmacia Botika,Farmacias La Botika,-33.4097659,-70.6906383,"- Av. Domingo Sta. María 3305, 8640795 Renca, Región Metropolitana",44 246 9804
+Farmacia Botika,Botika Habanera,-33.4379851,-70.6489582,"- Merced 839, Santiago, Región Metropolitana",(2) 2784 2800
 Farmacia Botika,Laboratorio Y Farmacias Lvn La Botika Y Compania L,-33.4567541,-70.5959684,"- Dublé Almeyda 3401, Santiago, Ñuñoa, Región Metropolitana",
 Farmacia Botika,Farmacias La Botika,-33.5032018,-70.69037159999999,"- Av. Cardenal Raúl Silva Henríquez 6398, Pedro Aguirre Cerda, Región Metropolitana",44 246 9805
 Farmacia Botika,Farmacias La Botika,-33.4307052,-70.720185,"- Av. José Joaquín Pérez 6094, 8500159 Quinta Normal, Región Metropolitana",44 246 9813
@@ -59,23 +99,215 @@ Farmacia Botika,Farmacias la Botika,-33.4986858,-70.68811509999999,"- Av. Carden
 Farmacia Botika,Farmacias La Botika,-33.5319548,-70.62318789999999,"- Av. Cardenal Raúl Silva Henríquez 7987, 8780768 La Granja, Región Metropolitana",44 246 9808
 Farmacia Botika,Farmacias la Botika,-33.4502102,-70.5882831,"- Av. Presidente José Batlle Y Ordóñez 3923, 7790664 Ñuñoa, Región Metropolitana",9 6749 9885
 Farmacia Botika,Farmacias La Botika,-33.360469,-70.50580769999999,"- Lo Barnechea 840, 7690431 Santiago, Lo Barnechea, Región Metropolitana",44 246 9807
+Farmacia Botika,Laboratorio Y Farmacias Lvn La Botika Y Compania L,-33.4567541,-70.5959684,"- Dublé Almeyda 3401, Santiago, Ñuñoa, Región Metropolitana",
+Farmacia Botika,Farmacias La Botika,-33.5032018,-70.69037159999999,"- Av. Cardenal Raúl Silva Henríquez 6398, Pedro Aguirre Cerda, Región Metropolitana",44 246 9805
+Farmacia Botika,Farmacias La Botika,-33.4307052,-70.720185,"- Av. José Joaquín Pérez 6094, 8500159 Quinta Normal, Región Metropolitana",44 246 9813
+Farmacia Botika,Farmacias la Botika,-33.5932902,-70.5593742,"- Av. México 1915, 8181249 Santiago, Región Metropolitana",9 3553 0799
+Farmacia Botika,Farmacias La Botika,-33.4704419,-70.56834479999999,"- Los Molineros 1720, 7910997 Penalolen, Peñalolén, Región Metropolitana",(2) 2272 4733
+Farmacia Botika,Botika,-33.530533,-70.6289805,"- Combarbalá 245, La Granja, Región Metropolitana",
+Farmacia Botika,Farmacias la Botika,-33.4986858,-70.68811509999999,"- Av. Cardenal Raúl Silva Henríquez 6008, 8460000 Pedro Aguirre Cerda, Región Metropolitana",44 246 9806
+Farmacia Botika,Farmacias La Botika,-33.5319548,-70.62318789999999,"- Av. Cardenal Raúl Silva Henríquez 7987, 8780768 La Granja, Región Metropolitana",44 246 9808
+Farmacia Botika,Farmacias la Botika,-33.4502102,-70.5882831,"- Av. Presidente José Batlle Y Ordóñez 3923, 7790664 Ñuñoa, Región Metropolitana",9 6749 9885
+Farmacia Botika,Farmacias La Botika,-33.360469,-70.50580769999999,"- Lo Barnechea 840, 7690431 Santiago, Lo Barnechea, Región Metropolitana",44 246 9807
+Farmacia Botika,Farmacias La Botika,-33.5454851,-70.6684121,"- Gran Av. José Miguel Carrera 9501, 8020141 El Bosque, Región Metropolitana",44 246 9819
+Farmacia Botika,La Botika,-33.4224191,-70.74733309999999,"- Mapocho Sur 7892, Cerro Navia, Región Metropolitana",
 Salcobrand,Farmacias Salcobrand,-33.4488929,-70.6692794,"- Moneda N° 818 Local 4,5 y 6, Región Metropolitana",600 360 6000
 Salcobrand,Farmacias Salcobrand,-33.453309,-70.660896,"- Toesca N° 1844, 1882 L-3 y 4, Santiago, Región Metropolitana",600 360 6000
 Salcobrand,Farmacias Salcobrand,-33.4398392,-70.6554098,"- Teatinos N° 316, Santiago, Región Metropolitana",600 360 6000
-Salcobrand,Farmacias Salcobrand,-33.43943,-70.649416,"- Huerfanos N° 900, Santiago, Región Metropolitana",600 360 6000
 Salcobrand,Salcobrand,-33.4405105,-70.6485209,"- Agustinas 833, Local 841, Santiago, Región Metropolitana",600 360 6000
 Salcobrand,Salcobrand,-33.4372681,-70.6514838,"- Catedral 1009, Local 2, Santiago, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.43943,-70.649416,"- Huerfanos N° 900, Santiago, Región Metropolitana",600 360 6000
 Salcobrand,Farmacias Salcobrand,-33.452942,-70.68013499999999,"- San Francisco de Borja 122, Santiago, Región Metropolitana",600 360 6000
 Salcobrand,Farmacias Salcobrand,-33.451346799999996,-70.6468955,"- San Francisco 521, Local 1, Santiago, Región Metropolitana",600 360 6000
-Salcobrand,Farmacias Salcobrand,-33.444531,-70.636563,"- Av. Portugal 174, Santiago, Región Metropolitana",600 360 6000
 Salcobrand,Farmacias Salcobrand,-33.444476,-70.65540899999999,"- Av. Libertador Bernardo O'Higgins 1395, Santiago, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.444531,-70.636563,"- Av. Portugal 174, Santiago, Región Metropolitana",600 360 6000
 Salcobrand,Farmacias Salcobrand,-33.420184,-70.65597799999999,"- Av. Independencia 906, N° 902 y, Independencia, Región Metropolitana",600 360 6000
 Salcobrand,Farmacias Salcobrand,-33.442285,-70.64917299999999,"- Estado 54, Santiago, Región Metropolitana",600 360 6000
 Salcobrand,Farmacias Salcobrand,-33.439785199999996,-70.65359149999999,"Esq. Morande - P.º Huerfanos N° 1199, Santiago, Región Metropolitana",600 360 6000
 Salcobrand,Farmacias Salcobrand,-33.4352137,-70.6508946,"- P.º Puente N° 689, Local 119, Santiago, Región Metropolitana",600 360 6000
 Salcobrand,Farmacias Salcobrand,-33.451706699999995,-70.6805348,"- DE SAN, Av. Libertador Bernardo O'Higgins N° 3402, Santiago, Estación Central, Región Metropolitana",600 360 6000
 Salcobrand,Farmacias Salcobrand,-33.4572917,-70.7060612,"- Av. Libertador Bernardo O'Higgins N° 5155, Lo Prado, Región Metropolitana",600 360 6000
-Salcobrand,Farmacias Salcobrand,-33.4574047,-70.7016995,"- Av. Libertador Bernardo O'Higgins 4850, Santiago, Región Metropolitana",600 360 6000
-Salcobrand,Farmacias Salcobrand,-33.435409,-70.651528,"- P.º Puente 670, Santiago, Región Metropolitana",600 360 6000
 Salcobrand,Farmacias Salcobrand,-33.438874,-70.6542185,"- Compañía de Jesús 1214, L-102-103, Santiago, Región Metropolitana",600 360 6000
 Salcobrand,Farmacias Salcobrand,-33.49117,-70.657468,"- Av. Salesianos N° 1334, Local 1, San Miguel, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.442715,-70.644521,"- Av. Libertador Bernardo O'Higgins, N° 1511, Santiago, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.438413,-70.61542299999999,"- Av. Manuel Montt 1140, Santiago, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.420184,-70.65597799999999,"- Av. Independencia 906, N° 902 y, Independencia, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.442285,-70.64917299999999,"- Estado 54, Santiago, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.439785199999996,-70.65359149999999,"Esq. Morande - P.º Huerfanos N° 1199, Santiago, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.4352137,-70.6508946,"- P.º Puente N° 689, Local 119, Santiago, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.451706699999995,-70.6805348,"- DE SAN, Av. Libertador Bernardo O'Higgins N° 3402, Santiago, Estación Central, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.4572917,-70.7060612,"- Av. Libertador Bernardo O'Higgins N° 5155, Lo Prado, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.438874,-70.6542185,"- Compañía de Jesús 1214, L-102-103, Santiago, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.49117,-70.657468,"- Av. Salesianos N° 1334, Local 1, San Miguel, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.442715,-70.644521,"- Av. Libertador Bernardo O'Higgins, N° 1511, Santiago, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.438413,-70.61542299999999,"- Av. Manuel Montt 1140, Santiago, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.4039652,-70.706024,"- José Manuel Balmaceda 4168, Santiago, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.438195,-70.649549,"- P.º Bulnes 405, Santiago, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.51849200000001,-70.659472,"- Gran Av. José Miguel Carrera N° 6701, La Cisterna, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.448129,-70.60064299999999,"- Avda. Suecia Esquina, Santiago, Región Metropolitana",600 360 6000
+Salcobrand,Salcobrand,-33.425174399999996,-70.613593,"- Av. Providencia 1910, Providencia, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.4129949,-70.582093,"- Av. Apoquindo N° 4610, Local 1, 7560973 Las Condes, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.4548632,-70.6271467,"- Matta Ote. 301, L-2, Ñuñoa, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.434924,-70.626283,"- Av. Salvador N° 95, Local 1, Santiago, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.3997415,-70.5915759,"- Av. Vitacura N° 3920, Vitacura, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.444009199999996,-70.7230755,"- Av. San Pablo N° 6183, Lo Prado, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.4039652,-70.706024,"- José Manuel Balmaceda 4168, Santiago, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.438195,-70.649549,"- P.º Bulnes 405, Santiago, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.51849200000001,-70.659472,"- Gran Av. José Miguel Carrera N° 6701, La Cisterna, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.448129,-70.60064299999999,"- Avda. Suecia Esquina, Santiago, Región Metropolitana",600 360 6000
+Salcobrand,Salcobrand,-33.425174399999996,-70.613593,"- Av. Providencia 1910, Providencia, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.4129949,-70.582093,"- Av. Apoquindo N° 4610, Local 1, 7560973 Las Condes, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.4548632,-70.6271467,"- Matta Ote. 301, L-2, Ñuñoa, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.434924,-70.626283,"- Av. Salvador N° 95, Local 1, Santiago, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.3997415,-70.5915759,"- Av. Vitacura N° 3920, Vitacura, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.444009199999996,-70.7230755,"- Av. San Pablo N° 6183, Lo Prado, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.4912024,-70.6500633,"- Gran Av. José Miguel Carrera N° 4004, San Miguel, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.4515612,-70.67950789999999,"- Av. Libertador Bernardo O'Higgins 3250, Santiago, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.454371699999996,-70.6071296,"- Av. Irarrázaval N° 2305, Ñuñoa, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.482523799999996,-70.59963359999999,"- Av. Macul 3019, Local 2,3 y 4, Macul, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.4394316,-70.62104810000001,"- Diag. Rancagua 910, Local 4 y 5, Providencia, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.446587799999996,-70.6108278,"- Antonio Varas N° 2108, Ñuñoa, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.538266,-70.663049,"- Av. Américo Vespucio N° 33, L-120 y 121, 7970000 La Cisterna, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.485960999999996,-70.651523,"- El, Llano Subercaseaux N° 35119, San Miguel, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.416436,-70.565212,"- Av. Cristóbal Colón N° 6064, Las Condes, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.4200853,-70.65341649999999,"- Santos Dumont 999, Independencia, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.4912024,-70.6500633,"- Gran Av. José Miguel Carrera N° 4004, San Miguel, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.4515612,-70.67950789999999,"- Av. Libertador Bernardo O'Higgins 3250, Santiago, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.454371699999996,-70.6071296,"- Av. Irarrázaval N° 2305, Ñuñoa, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.482523799999996,-70.59963359999999,"- Av. Macul 3019, Local 2,3 y 4, Macul, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.4394316,-70.62104810000001,"- Diag. Rancagua 910, Local 4 y 5, Providencia, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.446587799999996,-70.6108278,"- Antonio Varas N° 2108, Ñuñoa, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.538266,-70.663049,"- Av. Américo Vespucio N° 33, L-120 y 121, 7970000 La Cisterna, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.485960999999996,-70.651523,"- El, Llano Subercaseaux N° 35119, San Miguel, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.416436,-70.565212,"- Av. Cristóbal Colón N° 6064, Las Condes, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.4200853,-70.65341649999999,"- Santos Dumont 999, Independencia, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.4473068,-70.6325322,"- Av. Vicuña Mackenna 475-477, 8330163 Santiago, Región Metropolitana",600 360 6000
+Salcobrand,Salcobrand,-33.4181436,-70.6002572,"- Santiago Avda. Apoquindo, 2827 Local 101,102,106 y 107, Las Condes, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.44941130000001,-70.59755969999999,"- Chile España N° 597, Ñuñoa, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.4574047,-70.7016995,"- Av. Libertador Bernardo O'Higgins 4850, Santiago, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.415690999999995,-70.589286,"- Alcántara N° 44, Las Condes, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.416669999999996,-70.600708,"- Roger de Flor N° 2800, L-D y E, Las Condes, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.506684,-70.65511529999999,"- Gran Av. José Miguel Carrera 5728, San Miguel, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.4857955,-70.5991897,"- Av. Macul N° 3430, Local 1, Macul, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.4650658,-70.5975571,"- Av. José Pedro Alessandri N° 1163, Local 1014, Ñuñoa, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.5176132,-70.5980841,"- Av. Vicuña Mackenna Ote. N° 7110, Local 110, La Florida, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.4473068,-70.6325322,"- Av. Vicuña Mackenna 475-477, 8330163 Santiago, Región Metropolitana",600 360 6000
+Salcobrand,Salcobrand,-33.4181436,-70.6002572,"- Santiago Avda. Apoquindo, 2827 Local 101,102,106 y 107, Las Condes, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.44941130000001,-70.59755969999999,"- Chile España N° 597, Ñuñoa, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.4574047,-70.7016995,"- Av. Libertador Bernardo O'Higgins 4850, Santiago, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.415690999999995,-70.589286,"- Alcántara N° 44, Las Condes, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.416669999999996,-70.600708,"- Roger de Flor N° 2800, L-D y E, Las Condes, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.506684,-70.65511529999999,"- Gran Av. José Miguel Carrera 5728, San Miguel, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.4857955,-70.5991897,"- Av. Macul N° 3430, Local 1, Macul, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.4650658,-70.5975571,"- Av. José Pedro Alessandri N° 1163, Local 1014, Ñuñoa, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.5176132,-70.5980841,"- Av. Vicuña Mackenna Ote. N° 7110, Local 110, La Florida, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.416889,-70.606706,"- Gran Torre Santiago, Providencia, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.455882599999995,-70.5866839,"- Av. Irarrázaval N° 4123, Ñuñoa, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.415817000000004,-70.593891,"- Av. Apoquindo 3472, Las Condes, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.455354,-70.608783,"- Campo de Deportes 180, L-102-103, Ñuñoa, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.515949,-70.719033,"Mall Plaza Oeste, Cerrillos, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.4143652,-70.5965667,"- Isidora Goyenechea N° 3280, Local 3, Las Condes, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.4378206,-70.6035692,"- Av. Ricardo Lyon N° 1848, Providencia, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.452434,-70.56945999999999,"- Avda. Larraín, 5862 Local 1076-1080, Santiago, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.4131567,-70.58078499999999,"- Av. Apoquindo N° 4671, Las Condes, Región Metropolitana",600 360 6000
+Salcobrand,Farmacias Salcobrand,-33.5383575,-70.66491359999999,"- Gran Av. José Miguel Carrera N° 8877, La Cisterna, Región Metropolitana",600 360 6000
+Cruz Verde,Farmacias Cruz Verde,-33.447367299999996,-70.6673776,"- Av. Libertador Bernardo O'Higgins 2295, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.440412699999996,-70.6686388,"- Compañía de Jesús 2304, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Cruz Verde,-33.4433799,-70.6492161,"- Avda Liber Bernardo O`Higgins 925 Loc 1 C, Región Metropolitana",
+Cruz Verde,Farmacias Cruz Verde,-33.450821999999995,-70.677528,"- Av. Libertador Bernardo O'Higgins 3002, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4397641,-70.6503422,"- Huerfanos 956, 8320205 Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacia Cruz Verde,-33.4442039,-70.6544341,"- Teatinos 6, 8320000 Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4361885,-70.6801072,"- Matucana 775, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4447204,-70.6567712,"- Av. Libertador Bernardo O'Higgins 1461, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4428804,-70.6453701,"- Av. Libertador Bernardo O'Higgins 658, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacia Cruz Verde,-33.454211,-70.657324,"Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4407946,-70.6527809,"- Agustinas 1139, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4518218,-70.67754219999999,"- Campbell 3090, Santiago, Estación Central, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4434568,-70.6505567,"- Paseo Ahumada 2, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacia Cruz Verde,-33.452216,-70.682615,"- Av. Libertador Bernardo O'Higgins 3470, Santiago, Estación Central, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4514159,-70.6796777,"- Av. Libertador Bernardo O'Higgins 3250, 9160004 Estación Central, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.439803999999995,-70.65108599999999,"- Paseo Ahumada 298, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacia Cruz Verde,-33.4362941,-70.6515758,"- P.º Puente 598, 8320095 Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacia Cruz Verde,-33.4597736,-70.6490396,"- San Diego 1102, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4406424,-70.7016451,"- Av. San Pablo 4898, Santiago, Quinta Normal, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.44269,-70.6414175,"- Lira 49, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4407946,-70.6527809,"- Agustinas 1139, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4518218,-70.67754219999999,"- Campbell 3090, Santiago, Estación Central, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4434568,-70.6505567,"- Paseo Ahumada 2, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacia Cruz Verde,-33.452216,-70.682615,"- Av. Libertador Bernardo O'Higgins 3470, Santiago, Estación Central, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4514159,-70.6796777,"- Av. Libertador Bernardo O'Higgins 3250, 9160004 Estación Central, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.439803999999995,-70.65108599999999,"- Paseo Ahumada 298, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacia Cruz Verde,-33.4362941,-70.6515758,"- P.º Puente 598, 8320095 Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacia Cruz Verde,-33.4597736,-70.6490396,"- San Diego 1102, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4406424,-70.7016451,"- Av. San Pablo 4898, Santiago, Quinta Normal, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.44269,-70.6414175,"- Lira 49, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4350796,-70.67083749999999,"- Av. San Pablo 2398, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Cruz Verde,-33.4384003,-70.6495733,"- Merced, Santiago, Región Metropolitana",
+Cruz Verde,Farmacias Cruz Verde,-33.4331502,-70.65187279999999,"- P.º Puente 894, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4479821,-70.6354867,"- Av. Portugal 481, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.442623999999995,-70.655528,"- Amanda Labarca 92, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.439513999999996,-70.648293,"- Huerfanos 806, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.420065699999995,-70.6560992,"- Av. Independencia 936, 8380479 Santiago, Independencia, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4390721,-70.6580137,"- San Martín 405, local 2, 8340345 Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4195967,-70.66314919999999,"- Av. Fermín Vivaceta 975, Santiago, Independencia, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4534753,-70.6877945,"Santiago, Estación Central, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4350796,-70.67083749999999,"- Av. San Pablo 2398, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Cruz Verde,-33.4384003,-70.6495733,"- Merced, Santiago, Región Metropolitana",
+Cruz Verde,Farmacias Cruz Verde,-33.4331502,-70.65187279999999,"- P.º Puente 894, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4479821,-70.6354867,"- Av. Portugal 481, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.442623999999995,-70.655528,"- Amanda Labarca 92, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.420065699999995,-70.6560992,"- Av. Independencia 936, 8380479 Santiago, Independencia, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.439513999999996,-70.648293,"- Huerfanos 806, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4195967,-70.66314919999999,"- Av. Fermín Vivaceta 975, Santiago, Independencia, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4390721,-70.6580137,"- San Martín 405, local 2, 8340345 Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4534753,-70.6877945,"Santiago, Estación Central, Región Metropolitana",800 802 800
+Cruz Verde,Farmacia Cruz Verde 710,-33.4406929,-70.6506836,"- 1003,, Agustinas 989, Santiago, Región Metropolitana",(2) 2671 0630
+Cruz Verde,Farmacias Cruz Verde,-33.436949399999996,-70.64877589999999,"- Monjitas 801, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.486070999999995,-70.651124,"- Llano Subercaseaux 3519, Santiago, San Miguel, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4067864,-70.6599856,"- Av. Independencia 2127, Santiago, Independencia, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.5172978,-70.6591614,"- Gran Av. José Miguel Carrera 6567, Santiago, La Cisterna, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.45684020000001,-70.7059548,"- Av. María Rozas Velásquez 2, Santiago, Lo Prado, Región Metropolitana",800 802 800
+Cruz Verde,Farmacia Cruz Verde,-33.429460999999996,-70.647288,"- Av. Recoleta 320, Santiago, Recoleta, Región Metropolitana",(2) 2230 1850
+Cruz Verde,Farmacias Cruz Verde,-33.4452569,-70.6195856,"- Sta. Isabel 865, Santiago, Providencia, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.473139599999996,-70.6435997,"- Franklin 798, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.437922,-70.6040999,"- Av. Francisco Bilbao 2191, Santiago, Providencia, Región Metropolitana",800 802 800
+Cruz Verde,Farmacia Cruz Verde 710,-33.4406929,-70.6506836,"- 1003,, Agustinas 989, Santiago, Región Metropolitana",(2) 2671 0630
+Cruz Verde,Farmacias Cruz Verde,-33.436949399999996,-70.64877589999999,"- Monjitas 801, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.486070999999995,-70.651124,"- Llano Subercaseaux 3519, Santiago, San Miguel, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4067864,-70.6599856,"- Av. Independencia 2127, Santiago, Independencia, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.5172978,-70.6591614,"- Gran Av. José Miguel Carrera 6567, Santiago, La Cisterna, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.45684020000001,-70.7059548,"- Av. María Rozas Velásquez 2, Santiago, Lo Prado, Región Metropolitana",800 802 800
+Cruz Verde,Farmacia Cruz Verde,-33.429460999999996,-70.647288,"- Av. Recoleta 320, Santiago, Recoleta, Región Metropolitana",(2) 2230 1850
+Cruz Verde,Farmacias Cruz Verde,-33.4452569,-70.6195856,"- Sta. Isabel 865, Santiago, Providencia, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.473139599999996,-70.6435997,"- Franklin 798, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.437922,-70.6040999,"- Av. Francisco Bilbao 2191, Santiago, Providencia, Región Metropolitana",800 802 800
+Cruz Verde,Farmacía Cruz verde,-33.43981480000001,-70.6538501,"- Morandé 302, Santiago, Región Metropolitana",
+Cruz Verde,Farmacias Cruz Verde,-33.4055513,-70.7047503,"- Av. Domingo Sta. María 4112, 8650783 Renca, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4805738,-70.5994158,"- Av. José Pedro Alessandri 2841, Santiago, Macul, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.43416,-70.6262034,"- Av. Salvador 42, Santiago, Providencia, Región Metropolitana",800 802 800
+Cruz Verde,Cruz Verde,-33.4357318,-70.5917898,"- Av. Francisco Bilbao N°2851, local 1, Providencia, Región Metropolitana",
+Cruz Verde,Farmacias Cruz Verde,-33.43224,-70.62899,"- Bellavista 415, Santiago, Providencia, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4163971,-70.5930486,"- Av. Apoquindo 3539, Santiago, Las Condes, Región Metropolitana",800 802 800
+Cruz Verde,Cruz Verde,-33.449965399999996,-70.6214553,"- Av. Salvador 1848, Ñuñoa, Región Metropolitana",9 9220 7229
+Cruz Verde,Farmacias Cruz Verde,-33.4236255,-70.63981489999999,"- Av. Perú 805, Santiago, Recoleta, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4250608,-70.61039509999999,"- Barcelona 2095, 7510247 Providencia, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.437922,-70.6040999,"- Av. Francisco Bilbao 2191, Santiago, Providencia, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4055513,-70.7047503,"- Av. Domingo Sta. María 4112, 8650783 Renca, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.43416,-70.6262034,"- Av. Salvador 42, Santiago, Providencia, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4805738,-70.5994158,"- Av. José Pedro Alessandri 2841, Santiago, Macul, Región Metropolitana",800 802 800
+Cruz Verde,Cruz Verde,-33.4357318,-70.5917898,"- Av. Francisco Bilbao N°2851, local 1, Providencia, Región Metropolitana",
+Cruz Verde,Farmacias Cruz Verde,-33.43224,-70.62899,"- Bellavista 415, Santiago, Providencia, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4163971,-70.5930486,"- Av. Apoquindo 3539, Santiago, Las Condes, Región Metropolitana",800 802 800
+Cruz Verde,Cruz Verde,-33.449965399999996,-70.6214553,"- Av. Salvador 1848, Ñuñoa, Región Metropolitana",9 9220 7229
+Cruz Verde,Farmacias Cruz Verde,-33.4236255,-70.63981489999999,"- Av. Perú 805, Santiago, Recoleta, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4250608,-70.61039509999999,"- Barcelona 2095, 7510247 Providencia, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4108425,-70.5764124,"- Av. Apoquindo 5020, Santiago, Las Condes, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.405876,-70.64305290000001,"- Av. Recoleta 2299, Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.448161999999996,-70.61034599999999,"- Antonio Varas 2280, 7770070 Ñuñoa, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4542582,-70.6023495,"- Av. Irarrázaval 2768, Santiago, Ñuñoa, Región Metropolitana",800 802 800
+Cruz Verde,Farmacia Cruz Verde,-33.454006,-70.604669,"- Av. Irarrázaval 2520, Santiago, Ñuñoa, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4167601,-70.5952384,"- Av. Apoquindo 3337, Santiago, Las Condes, Región Metropolitana",800 802 800
+Cruz Verde,Cruz Verde 943,-33.4294255,-70.6191126,"- Dr. Manuel Barros Borgoño 63, Providencia, Región Metropolitana",
+Cruz Verde,Cruz Verde,-33.438176299999995,-70.60722799999999,"- Av. Pedro de Valdivia 1698, Providencia, Región Metropolitana",
+Cruz Verde,Farmacia Cruz Verde,-33.4702975,-70.6567519,"Santiago, Región Metropolitana",800 802 800
+Cruz Verde,Farmacias Cruz Verde,-33.4274236,-70.6174954,"- Sta. Beatriz 22, Santiago, Providencia, Región Metropolitana",800 802 800
